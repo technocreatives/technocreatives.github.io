@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #logo {
@@ -12,12 +12,21 @@ body {
 }
 
 .container.content {
+  width: 60%;
   padding-left: 250px;
   padding-right: 25px;
   padding-bottom: 25px;
 }
 
 @media screen and (max-width: 720px) {
+  body {
+    align-items: center;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+  }
+
   #logo {
     padding: 15px;
     position: relative;
