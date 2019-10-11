@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://technocreatives.github.io/sitemap.xml
